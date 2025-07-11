@@ -50,7 +50,7 @@ The official APK is available here:
 - Email: GosecConfidency@proton.me  
 - GitHub: [@Gosec-cfdcy](https://github.com/Gosec-cfdcy)
 
-#  Disclaimer
+###  Disclaimer
 
 > Confidency is provided **as-is**, with no warranty. Your data is stored only on your device. If you uninstall the app or reset your phone, your data will be lost unless you back it up manually.
 
