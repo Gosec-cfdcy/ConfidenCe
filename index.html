@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Confidency - Password Manager</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Confidency - The secure mobile app to manage all your passwords with ease.">
+  <style>
+    /* ---- STYLE INCHANGÉ ---- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: #1e1e1e;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+      color: #00e676;
+    }
+    header p {
+      font-size: 1.1rem;
+      color: #aaa;
+    }
+    .section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .screenshot {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    .screenshot img {
+      max-width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00e67655;
+      transition: transform 0.3s ease;
+    }
+    .screenshot img:hover {
+      transform: scale(1.05);
+    }
+
+    .carousel-container {
+      position: relative;
+      width: 280px;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #00e67655;
+    }
+
+    .carousel {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .carousel img {
+      min-width: 100%;
+      height: auto;
+    }
+
+    .arrow {
+      position: absolute;
+      top: 60%;
+      transform: translateY(-50%);
+      background: rgba(0, 230, 118, 0.3);
+      color: #fff;
+      border: none;
+      font-size: 2rem;
+      padding: 0 0.5rem;
+      cursor: pointer;
+      z-index: 10;
+      border-radius: 5px;
+      user-select: none;
+      transition: background 0.3s;
+    }
+    .arrow:hover {
+      background: rgba(0, 230, 118, 0.6);
+    }
+    .arrow.left {
+      left: 10px;
+    }
+    .arrow.right {
+      right: 10px;
+    }
+
+    .dots-container {
+      text-align: center;
+      margin-top: 10px;
+    }
+    .dot {
+      display: inline-block;
+      height: 10px;
+      width: 10px;
+      margin: 0 6px;
+      background-color: #666;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .dot.active {
+      background-color: #00e676;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .feature-box {
+      background: #1c1c1c;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #00e67622;
+    }
+    .feature-box h3 {
+      color: #00e676;
+      margin-bottom: 0.5rem;
+    }
+    .download {
+      text-align: center;
+      margin-top: 3rem;
+    }
+    .btn {
+      background: #00e676;
+      color: #000;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background: #00c25a;
+    }
+    footer {
+      background: #111;
+      padding: 2rem 1rem;
+      text-align: center;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+  <img src="images/logo.png" alt="Confidency logo" style="height:40px; vertical-align:middle; margin-right:10px;">
+  <h1 style="display:inline-block; vertical-align:middle;">Confidency</h1>
+  <p>Simple, secure and elegant way to manage all your passwords</p>
+</header>
+
+  <section class="section">
+    <div class="screenshot">
+      <div class="carousel-container">
+        <button class="arrow left">&#10094;</button>
+        <div class="carousel">
+          <img src="images/screenshot1.png" alt="Screenshot 1">
+          <img src="images/screenshot2.png" alt="Screenshot 2">
+          <img src="images/screenshot3.png" alt="Screenshot 3">
+        </div>
+        <div class="dots-container">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <button class="arrow right">&#10095;</button>
+      </div>
+    </div>
+
+    <div class="features">
+      <div class="feature-box">
+        <h3> Total Security</h3>
+        <p>Your data is encrypted locally and protected by password or biometrics. You're the only one in control.</p>
+      </div>
+      <div class="feature-box">
+        <h3> Ultra-Simple Interface</h3>
+        <p>Smooth and intuitive navigation. Add or edit your passwords in just a few taps.</p>
+      </div>
+      <div class="feature-box">
+        <h3> Password Generator</h3>
+        <p>Generate long, complex and unique passwords with a single click. No more hassle — Confidency makes it easy.</p>
+      </div>
+      <div class="feature-box">
+        <h3> Zero Memory Required</h3>
+        <p>With Confidency, you never need to remember your passwords again. They’re stored securely and locally on your device.</p>
+      </div>
+    </div>
+
+    <div class="download">
+      <a href="https://github.com/Gosec-cfdcy/Confidency/releases/download/Cy-v2.0.0.7/Confidency.apk" class="btn"> Download the App</a>
+      <p style="margin-top: 1rem; font-size: 0.9rem; color: #ccc;">Available for Android.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Confidency · contact: confidency@proton.me
+  </footer>
+
+  <script>
+    // ---- SCRIPT INCHANGÉ ----
+    const carousel = document.querySelector('.carousel');
+    const images = carousel.querySelectorAll('img');
+    const leftArrow = document.querySelector('.arrow.left');
+    const rightArrow = document.querySelector('.arrow.right');
+    const dots = document.querySelectorAll('.dot');
+    let index = 0;
+
+    function updateCarousel() {
+      carousel.style.transform = `translateX(-${index * 100}%)`;
+      dots.forEach((dot, i) => {
+        dot.classList.toggle('active', i === index);
+      });
+    }
+
+    rightArrow.addEventListener('click', () => {
+      index = (index + 1) % images.length;
+      updateCarousel();
+    });
+
+    leftArrow.addEventListener('click', () => {
+      index = (index - 1 + images.length) % images.length;
+      updateCarousel();
+    });
+
+    dots.forEach((dot, i) => {
+      dot.addEventListener('click', () => {
+        index = i;
+        updateCarousel();
+      });
+    });
+
+    setInterval(() => {
+      index = (index + 1) % images.length;
+      updateCarousel();
+    }, 5000);
+  </script>
+</body>
+</html>
