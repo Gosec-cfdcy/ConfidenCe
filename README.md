@@ -43,14 +43,14 @@ To deploy it yourself:
 ## Download the App
 
 The official APK is available here:  
-➡️ [Confidency v2.0.0.7](https://github.com/Gosec-cfdcy/Confidency/releases/download/Cy-v2.0.0.7/Confidency.apk)
+ [Confidency v2.0.0.7](https://github.com/Gosec-cfdcy/Confidency/releases/download/Cy-v2.0.0.7/Confidency.apk)
 
 ## Contact
 
 - Email: GosecConfidency@proton.me  
 - GitHub: [@Gosec-cfdcy](https://github.com/Gosec-cfdcy)
 
-## ⚠️ Disclaimer
+#  Disclaimer
 
 > Confidency is provided **as-is**, with no warranty. Your data is stored only on your device. If you uninstall the app or reset your phone, your data will be lost unless you back it up manually.
 
