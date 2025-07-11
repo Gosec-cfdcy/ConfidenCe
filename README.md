@@ -10,20 +10,20 @@ https://gosec-cfdcy.github.io/confidency/
 
 **Confidency** is an Android app that allows you to:
 
-- 🔐 **Encrypt your passwords with AES-256**, locally on your device
-- 📲 **Access your data via fingerprint or phone lock**
-- 🧠 **Generate strong and unique passwords** in one tap
-- 🚫 **Use the app with no account or registration**
-- 💾 **Store everything locally**, nothing is uploaded
-- 💸 **Enjoy 100% free usage**, no ads or in-app purchases
+-  **Encrypt your passwords with AES-256**, locally on your device
+-  **Access your data via fingerprint or phone lock**
+-  **Generate strong and unique passwords** in one tap
+-  **Use the app with no account or registration**
+-  **Store everything locally**, nothing is uploaded
+-  **Enjoy 100% free usage**, no ads or in-app purchases
 
 ## Repository content
 
 - `index.html` – the main landing page of the project  
-- 📸 A responsive screenshot **carousel**
-- 🎨 A smooth and modern UI
-- 📥 A direct download link to the official APK
-- ✅ A list of core features
+-  A responsive screenshot **carousel**
+-  A smooth and modern UI
+-  A direct download link to the official APK
+-  A list of core features
 
 ## GitHub Pages Deployment
 
